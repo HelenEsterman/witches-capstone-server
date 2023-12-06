@@ -1,0 +1,37 @@
+[
+  {
+    "model": "witchesapi.avatar",
+    "pk": 1,
+    "fields": {
+      "avatar_url": "https://images.nightcafe.studio/jobs/qWdqP1UUDCTHUMgOEuG1/qWdqP1UUDCTHUMgOEuG1--1--ewqv4.jpg?tr=w-1600,c-at_max"
+    }
+  },
+  {
+    "model": "witchesapi.avatar",
+    "pk": 2,
+    "fields": {
+      "avatar_url": "https://images.nightcafe.studio/jobs/2ZTkCEkOPOrULUVBqBZH/2ZTkCEkOPOrULUVBqBZH--1--m33si.jpg?tr=w-1600,c-at_max"
+    }
+  },
+  {
+    "model": "witchesapi.avatar",
+    "pk": 3,
+    "fields": {
+      "avatar_url": "https://images.nightcafe.studio/jobs/LnTggKBS1HFZj1dhNjpt/LnTggKBS1HFZj1dhNjpt--1--z2oim.jpg?tr=w-1600,c-at_max"
+    }
+  },
+  {
+    "model": "witchesapi.avatar",
+    "pk": 4,
+    "fields": {
+      "avatar_url": "https://images.nightcafe.studio/jobs/zNeAFwO0iGNBp0ujzvG7/zNeAFwO0iGNBp0ujzvG7--1--xv2ys.jpg?tr=w-1600,c-at_max"
+    }
+  },
+  {
+    "model": "witchesapi.avatar",
+    "pk": 5,
+    "fields": {
+      "avatar_url": "https://images.nightcafe.studio/jobs/3qRU9RLVEOBfcIn9PCnC/3qRU9RLVEOBfcIn9PCnC--1--5fn07.jpg?tr=w-1600,c-at_max"
+    }
+  }
+]

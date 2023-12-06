@@ -9,4 +9,4 @@ class Spell(models.Model):
     location = models.CharField(max_length=200)
     other_instructions = models.CharField(max_length=500)
     favorite = models.BooleanField(default=False)
-    ingredients = models.ManyToManyField("SpellIngredient", through="IngredientForSpell", related_name="spell")
+    ingredients = models.ManyToManyField("SpellIngredient", through="IngredientForSpell", related_name="spells")
