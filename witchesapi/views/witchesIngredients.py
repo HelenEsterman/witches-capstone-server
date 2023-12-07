@@ -1,14 +1,36 @@
 from rest_framework import viewsets, status
 from rest_framework.response import Response
 from rest_framework import serializers
-from witchesapi.models import WitchIngredient
+from witchesapi.models import WitchIngredient, IngredientType, Witch, Avatar
+
+
+class IngredientTypeSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = IngredientType
+        fields = ['id', 'label']
+
+class WitchAvatarSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Avatar
+        fields = ['id', 'avatar_url']
+
+class WitchSerializer(serializers.ModelSerializer):
+    avatar = WitchAvatarSerializer(many=False)
+    class Meta:
+        model = Witch
+        fields = ['id', 'avatar']
 
 class WitchIngredientSerializer(serializers.ModelSerializer):
-#    TODO: is_owner, witch_id serializer, and type_id serializer
+    is_owner = serializers.SerializerMethodField()
+    type = IngredientTypeSerializer(many=False)
+    witch = WitchSerializer(many=False)
+    def get_is_owner(self, obj):
+        # Check if the authenticated user is the owner
+        return self.context['request'].user == obj.witch.user
     
     class Meta:
         model = WitchIngredient
-        fields = [ 'id', 'witch_id','type_id', 'label', 'healing_property']
+        fields = [ 'id', 'witch','type', 'label', 'healing_property', 'is_owner']
 
 class WitchIngredientViewSet(viewsets.ViewSet):
 
