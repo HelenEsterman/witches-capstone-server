@@ -1,18 +1,19 @@
 from rest_framework import viewsets, status
 from rest_framework.response import Response
 from rest_framework import serializers
-from witchesapi.models import Spell
+from witchesapi.models import Spell, SpellIngredient
 
-# TODO possibly rename serializer to make more sense/be more specific
-class Spell_IngredientsSerializer:
+class SpellIngredientSerializer(serializers.ModelSerializer):
     class Meta:
-        pass
-        # TODO: figure out what model to serialize for 'ingredient' field within SpellSerializer
-        # model = 
-class SpellSerializer(serializers.Serializer):
+        model = SpellIngredient
+        fields = ['id', 'label']
+
+class SpellSerializer(serializers.ModelSerializer):
+    ingredients = SpellIngredientSerializer(many=True)
+    
     class Meta:
         model = Spell
-        fields = [ 'id', 'name', 'intention', 'chant', 'when_most_powerful', 'location', 'other_instructions', 'favorite', 'ingredients']
+        fields = [ 'id', 'name', 'intention', 'chant', 'repeat_chant', 'when_most_powerful', 'location', 'other_instructions', 'favorite', 'ingredients']
 
 class SpellViewSet(viewsets.ViewSet):
 

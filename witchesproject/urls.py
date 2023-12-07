@@ -1,9 +1,11 @@
 from django.contrib import admin
 from django.urls import include, path
 from rest_framework import routers
-from witchesapi.views import WitchUserViewSet
+from witchesapi.views import WitchUserViewSet, SpellViewSet, WitchIngredientViewSet
 
 router = routers.DefaultRouter(trailing_slash=False)
+router.register(r'spells', SpellViewSet, 'spell')
+router.register(r'witchIngredients', WitchIngredientViewSet, 'witchIngredient')
 
 urlpatterns = [
     path('', include(router.urls)),

@@ -1,0 +1,352 @@
+[
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 1,
+    "fields": {
+      "type": 2,
+      "witch": 2,
+      "label": "any color candle",
+      "healing_property": "calming"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 2,
+    "fields": {
+      "type": 6,
+      "witch": 2,
+      "label": "matches",
+      "healing_property": "none"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 3,
+    "fields": {
+      "type": 2,
+      "witch": 2,
+      "label": "red candle",
+      "healing_property": "power"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 4,
+    "fields": {
+      "type": 6,
+      "witch": 2,
+      "label": "talcum powder",
+      "healing_property": "none"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 5,
+    "fields": {
+      "type": 1,
+      "witch": 1,
+      "label": "rose oil",
+      "healing_property": "love"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 6,
+    "fields": {
+      "type": 1,
+      "witch": 1,
+      "label": "sandalwood oil",
+      "healing_property": "emotional openness"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 7,
+    "fields": {
+      "type": 1,
+      "witch": 3,
+      "label": "lavender oil",
+      "healing_property": "creativity"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 8,
+    "fields": {
+      "type": 3,
+      "witch": 3,
+      "label": "powdered cardamom seed",
+      "healing_property": "soothes mind and soul"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 9,
+    "fields": {
+      "type": 3,
+      "witch": 4,
+      "label": "powdered allspice",
+      "healing_property": "money and luck"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 10,
+    "fields": {
+      "type": 3,
+      "witch": 2,
+      "label": "crushed dried lavender",
+      "healing_property": "self expression"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 11,
+    "fields": {
+      "type": 6,
+      "witch": 2,
+      "label": "ceramic bowl",
+      "healing_property": "none"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 12,
+    "fields": {
+      "type": 6,
+      "witch": 3,
+      "label": "sugar cubes",
+      "healing_property": "none"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 13,
+    "fields": {
+      "type": 1,
+      "witch": 3,
+      "label": "pure virgin olive oil",
+      "healing_property": "clarity"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 14,
+    "fields": {
+      "type": 6,
+      "witch": 5,
+      "label": "dark cloth",
+      "healing_property": "none"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 15,
+    "fields": {
+      "type": 3,
+      "witch": 2,
+      "label": "chilli powder",
+      "healing_property": "protection"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 16,
+    "fields": {
+      "type": 3,
+      "witch": 2,
+      "label": "black pepper",
+      "healing_property": "helps activate third eye"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 17,
+    "fields": {
+      "type": 3,
+      "witch": 3,
+      "label": "cayenne pepper",
+      "healing_property": "luck"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 18,
+    "fields": {
+      "type": 3,
+      "witch": 6,
+      "label": "basil powder",
+      "healing_property": "money and success"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 19,
+    "fields": {
+      "type": 1,
+      "witch": 4,
+      "label": "spearmint oil",
+      "healing_property": "release emotional blocks"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 20,
+    "fields": {
+      "type": 1,
+      "witch": 5,
+      "label": "cinnamon oil",
+      "healing_property": "optimism"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 21,
+    "fields": {
+      "type": 6,
+      "witch": 6,
+      "label": "oil burner",
+      "healing_property": "none"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 22,
+    "fields": {
+      "type": 1,
+      "witch": 2,
+      "label": "clove oil",
+      "healing_property": "reduce anxiety"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 23,
+    "fields": {
+      "type": 1,
+      "witch": 6,
+      "label": "vetiver oil",
+      "healing_property": "emotional well-being"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 24,
+    "fields": {
+      "type": 3,
+      "witch": 2,
+      "label": "bay leaf",
+      "healing_property": "protection"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 25,
+    "fields": {
+      "type": 3,
+      "witch": 3,
+      "label": "rosemary",
+      "healing_property": "intuition"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 26,
+    "fields": {
+      "type": 3,
+      "witch": 5,
+      "label": "cinnamon powder",
+      "healing_property": "prosperity"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 27,
+    "fields": {
+      "type": 6,
+      "witch": 7,
+      "label": "red cloth",
+      "healing_property": "none"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 28,
+    "fields": {
+      "type": 6,
+      "witch": 7,
+      "label": "needle and thread",
+      "healing_property": "none"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 29,
+    "fields": {
+      "type": 3,
+      "witch": 7,
+      "label": "white pepper",
+      "healing_property": "clarification"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 30,
+    "fields": {
+      "type": 3,
+      "witch": 6,
+      "label": "sage",
+      "healing_property": "purifying"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 31,
+    "fields": {
+      "type": 3,
+      "witch": 5,
+      "label": "powdered garlic",
+      "healing_property": "protection"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 32,
+    "fields": {
+      "type": 5,
+      "witch": 2,
+      "label": "rose thorn",
+      "healing_property": "clarity"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 33,
+    "fields": {
+      "type": 4,
+      "witch": 2,
+      "label": "cat's eye stone",
+      "healing_property": "intuition"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 34,
+    "fields": {
+      "type": 5,
+      "witch": 4,
+      "label": "marigold petals",
+      "healing_property": "strength"
+    }
+  },
+  {
+    "model": "witchesapi.witchIngredient",
+    "pk": 35,
+    "fields": {
+      "type": 4,
+      "witch": 4,
+      "label": "magnetite",
+      "healing_property": "grounding"
+    }
+  }
+]

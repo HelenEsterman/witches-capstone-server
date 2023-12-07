@@ -1,0 +1,167 @@
+[
+  {
+    "model": "witchesapi.spell",
+    "pk": 1,
+    "fields": {
+      "name": "Intuition Mediation Spell",
+      "intention": "intuition",
+      "chant": "I dedicate this moment to the powers of pure white light and allow the stream of universal energy to course through me unhindered by trivial and harmful thoughts. This quiet moment connects me to the core of creative energy.",
+      "repeat_chant": 3,
+      "when_most_powerful": "when done daily",
+      "location": "in a comfortable chair by the light of a candle",
+      "other_instructions": "Sit quietly. Close your eyes and take three deep breaths in through the nose and out through the mouth before silently reading the chant. Take ten deep breaths counting from ten to one after reading the chant.",
+      "favorite": false,
+      "ingredients": [1, 2]
+    }
+  },
+  {
+    "model": "witchesapi.spell",
+    "pk": 2,
+    "fields": {
+      "name": "Self Love Manifestation",
+      "intention": "self love",
+      "chant": "I am a magnet for love, love is within me, without me, before me, and behind me. I AM LOVE.",
+      "repeat_chant": 20,
+      "when_most_powerful": "when done daily for one week starting and ending on a Friday",
+      "location": "on the ground by the light of a red candle",
+      "other_instructions": "Sit or lay quietly. Hold the rose quartz over your heart. Close your eyes and take a deep breath in through the nose and out through the mouth before and after reading the chant.",
+      "favorite": false,
+      "ingredients": [2, 3, 4]
+    }
+  },
+  {
+    "model": "witchesapi.spell",
+    "pk": 3,
+    "fields": {
+      "name": "Love Powder",
+      "intention": "love",
+      "chant": "",
+      "repeat_chant": 0,
+      "when_most_powerful": "on a Friday",
+      "location": "sunny spot outside",
+      "other_instructions": "To a handful of talcum powder add five drops of rose oil, five drops of sandalwood oil, seven drops of lavender oil, a teaspoon of powdered cardamom seed, a teaspoon of powdered allspice, a teaspoon of crushed dried lavender, and a teaspoon of crushed dried rose petals. Mix all ingredients together in a ceramic bowl with a fork, as you mix visualize a warm pink light building and radiating out from the powder. Put powder into container to take to sprinkle on the belongings of the person you desire, sprinkle powder on yourself after bathing, sprinkle powder in your underwear drawer, and then take the rest of the powder in the palm of your hand and, in a sunny spot outside, blow a little north, a little south, a little east and a little west.",
+      "favorite": false,
+      "ingredients": [5, 6, 7, 8, 9, 10, 11, 12, 13]
+    }
+  },
+  {
+    "model": "witchesapi.spell",
+    "pk": 4,
+    "fields": {
+      "name": "Charm to Discourage Unwanted Attention",
+      "intention": "love blocking",
+      "chant": "Go from me hence and find thee another.",
+      "repeat_chant": 13,
+      "when_most_powerful": "on a Saturday",
+      "location": "having access to a stream or canal",
+      "other_instructions": "Take a photograph of the person whose advances you wish to discourage and smear it with oil, wrap it in a dark cloth and set it aside. In a pan, add a teaspoon of chilli powder, a teaspoon of black pepper, a teaspoon of paprika powder, and a teaspoon of cayenne pepper. Dry roast the spices (don't burn them!). Pour the mixture into a container. Position the photograph on the floor, remove the dark cloth, and place the red candle next to the photograph. Use the spice mixture to draw a circle around the photograph, light the candle and recite the chant. Let the candle burn out before any next steps. Toss the photo into a stream or canal and toss three sugar cubes in shortly after.",
+      "favorite": false,
+      "ingredients": [3, 14, 15, 16, 17, 18, 19, 20, 2]
+    }
+  },
+  {
+    "model": "witchesapi.spell",
+    "pk": 5,
+    "fields": {
+      "name": "Prosperity Oil",
+      "intention": "prosperity",
+      "chant": "",
+      "repeat_chant": 0,
+      "when_most_powerful": "on a Thursday, let oil sit in a cool dark place for three weeks after being mixed",
+      "location": "away from sun rays",
+      "other_instructions": "Mix one part basil powder, one part spearmint oil, 1/4 part cinnamon oil, and six parts pure virgin olive oil into a container. To get rid of basil powder residue, strain with muslin or cheesecloth (not a necessary step). Keep a small coin in the oil's container. Drop a tiny drop of oil on financial documents or currency to draw wealth. A small piece of green cloth anointed with the oil, stored in your purse or wallet, or the oil used as perfume, will also draw wealth.",
+      "favorite": false,
+      "ingredients": [15, 21, 22, 23, 42]
+    }
+  },
+  {
+    "model": "witchesapi.spell",
+    "pk": 6,
+    "fields": {
+      "name": "Aromatherapy Love Philter",
+      "intention": "love",
+      "chant": "[name of desired person]",
+      "repeat_chant": 169,
+      "when_most_powerful": "on a Friday",
+      "location": "room where two lovers are to meet",
+      "other_instructions": "To an oil burner full of water add two drops of patchouli oil, two drops of orange oil, two drops of cinnamon oil, two drops of vetiver oil, and a hint of clove oil. Light a red candle and sprinkle the mixture over the candle 13 times while reciting the chant.",
+      "favorite": false,
+      "ingredients": [24, 23, 3, 2, 25, 26, 27, 28]
+    }
+  },
+  {
+    "model": "witchesapi.spell",
+    "pk": 7,
+    "fields": {
+      "name": "Four Winds Wishing Spell",
+      "intention": "grant wish",
+      "chant": "King Boreas of the North Wind, by the powers of earth, I call you to carry my wish to the Northern quarter, and by the powers of the gnomes, I ask that you bring me success. King Eureus of the East Wind, by the powers of air, I call you to carry my wish to the Eastern quarter, and by the powers of the sylphs, I ask that you bring me success. King Notus of the South Wind, by the powers of fire, I call you to carry my wish to the Southern quarter, and by the powers of the salamanders, I ask that you bring me success. King Zephyrus of the West Wind, by the powers of water, I call you to carry my wish to the Western quarter, and by the powers of the undines, I ask that you bring me success.",
+      "repeat_chant": 0,
+      "when_most_powerful": "on a Tuesday",
+      "location": "outside",
+      "other_instructions": "Mix the herbs depending on your wish, use more of one herb or another depending on what type of wish you want granted. Bay leaf (success and prestige wishes), rosemary (promotion and advancement wishes), cinnamon (power wishes), vervain (general wishes), cardamom (love wishes), and peppermint (prosperity wishes). Hold the herb mixture in your hands and visualize the achievement of your goal in fine detail. Hold the herbs to your mouth and breathe upon them trying to force the wish through your breath into the herbs. When you are satisfied turn North and recite the part of the chant targeted towards the King of the North Wind blow a quarter of the herbs into the direction of the North. Do the same with the Kings of the East, South, and West Winds as well. Once the spell has ended, leave the area without looking back, safe in the knowledge that the powers of the universe have taken over your wish.",
+      "favorite": false,
+      "ingredients": [9, 29, 30, 31, 32, 33]
+    }
+  },
+  {
+    "model": "witchesapi.spell",
+    "pk": 8,
+    "fields": {
+      "name": "Mexican Protection Charm Bag",
+      "intention": "protection",
+      "chant": "Sanctified Santa Marta, bless and cleanse me of my woes. Slay the dragon of my misfortune and light my way upon the path to peace and tranquility. Bless my charm and occasion it to protect me against all harm in your name.",
+      "repeat_chant": 0,
+      "when_most_powerful": "when keeping the charm on your person at all times",
+      "location": "inside",
+      "other_instructions": "Take the red cloth and fold it to create a pouch, put a dash of each herb and the cat's eye crystal inside the pouch and sew the edges closed to ensure that the contents do not fall out. Kiss the pouch and place it beneath your pillow to sleep on for four consecutive nights. After the fourth night, hold the charm bag in your hands and with closed eyes, visualize a red energy emanating from the pouch growing stronger and radiating out to fill the room. Light a red candle and recite the chant.",
+      "favorite": false,
+      "ingredients": [34, 35, 20, 36, 37, 38, 39, 40, 41, 3, 2]
+    }
+  },
+  {
+    "model": "witchesapi.spell",
+    "pk": 9,
+    "fields": {
+      "name": "Charm to Secure Employment",
+      "intention": "work",
+      "chant": "",
+      "repeat_chant": 0,
+      "when_most_powerful": "on a Sunday",
+      "location": "sunny spot outside",
+      "other_instructions": "Take the green cloth and lay it flat with one of the corners pointing to you. Place three cardamom seeds, a bay leaf, and some rosemary in the center. Tie the corners of the cloth together with the string to create a little bundle of herbs. Before each interview hold the bundle to your forehead and visualize yourself radiating confidence and nailing the interview. Any rejection is a sign from the universe the job was not right for you. Bring the charm to all interviews.",
+      "favorite": false,
+      "ingredients": [42, 29, 30, 43, 44]
+    }
+  },
+  {
+    "model": "witchesapi.spell",
+    "pk": 10,
+    "fields": {
+      "name": "Popularity Spell",
+      "intention": "friendship",
+      "chant": "Spirits of the glorious Sun, lend unto me thy strength of purpose and thy brilliant rays of warmth and joy. Let me be a beacon of friendliness and let me touch those who I am in contact with the joy of connection.",
+      "repeat_chant": 0,
+      "when_most_powerful": "on a Sunday",
+      "location": "by the light of a yellow candle",
+      "other_instructions": "Take the yellow cloth and lay it flat with one of the corners pointing to you. Place a little of each herb, the magnetite and a teaspoon of iron filings into the center. On a piece of yellow paper using gold ink draw an 'x' in the middle of two 'b's facing outward, to look like this 'BxB' then draw a circle surrounding the x and b's. Once drawn hold it up to the yellow candle burn frankincense incense and repeatedly pass the piece of paper through the smoke. Place the piece of paper on the pile of herbs on the yellow cloth folding the corners over to encase the herbs, magnetite, and piece of paper. Bind the edges of the cloth with red thread. Once made, pass the charm pouch through the incense smoke repeatedly while reciting the chant. Carry the charm everywhere anointing it with perfume every once in a while. Never show the charm to another person or it will destroy it's power!",
+      "favorite": false,
+      "ingredients": [45, 46, 32, 25, 47, 48, 49, 2, 51, 50, 52, 53]
+    }
+  },
+  {
+    "model": "witchesapi.spell",
+    "pk": 11,
+    "fields": {
+      "name": "Magical Water to Bring Peace",
+      "intention": "heal troubled home",
+      "chant": "Powers of the sea, powers of the rain, powers of the stream and field be ye to the right of me and to te left of me. Be ye before and aft and all about. Flood thy peace into this liquid of the art and bring harmony, blessed concord and tranquility to my bone. So mote it be.",
+      "repeat_chant": 0,
+      "when_most_powerful": "on a Monday",
+      "location": "in your home",
+      "other_instructions": "In a container add two parts rose water, one part sea water, one part rain water, one part spring water, three parts alcohol, and a piece of mirrored glass. Gently stir, then light a blue candle, say the chant over it. Once this is finished add a single white rose to the container. Walk about the home sprinkling the mixture in every room. Place a little of the mixture into a small container and place that under the beds of particularly restless residents to calm and pacify the home.",
+      "favorite": false,
+      "ingredients": [54, 2, 54, 55, 56, 57, 58, 59, 60, 61]
+    }
+  }
+]
