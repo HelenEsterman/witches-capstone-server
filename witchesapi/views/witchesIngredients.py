@@ -20,6 +20,7 @@ class WitchIngredientSerializer(serializers.ModelSerializer):
     is_owner = serializers.SerializerMethodField()
     type = IngredientTypeSerializer(many=False)
     witch = WitchSerializer(many=False)
+    
     def get_is_owner(self, obj):
         # Check if the authenticated user is the owner
         return self.context['request'].user == obj.witch.user
@@ -31,7 +32,12 @@ class WitchIngredientSerializer(serializers.ModelSerializer):
 class WitchIngredientViewSet(viewsets.ViewSet):
 
     def list(self, request):
-        witchesIngredients = WitchIngredient.objects.all()
+        owner = request.query_params.get('owner', None)
+
+        if owner is not None and owner == "current":
+            witchesIngredients = WitchIngredient.objects.filter(witch_id=request.auth.user.id)
+        else:
+            witchesIngredients = WitchIngredient.objects.all()
         serializer = WitchIngredientSerializer(witchesIngredients, many=True, context={'request': request})
         return Response(serializer.data, status=status.HTTP_200_OK)
 
