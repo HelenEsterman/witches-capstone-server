@@ -2,6 +2,7 @@ from rest_framework import viewsets, status
 from rest_framework.response import Response
 from rest_framework import serializers
 from witchesapi.models import WitchIngredient, IngredientType, Witch, Avatar
+from .avatars import AvatarSerializer
 
 
 class IngredientTypeSerializer(serializers.ModelSerializer):
@@ -9,13 +10,8 @@ class IngredientTypeSerializer(serializers.ModelSerializer):
         model = IngredientType
         fields = ['id', 'label']
 
-class WitchAvatarSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Avatar
-        fields = ['id', 'avatar_url']
-
 class WitchSerializer(serializers.ModelSerializer):
-    avatar = WitchAvatarSerializer(many=False)
+    avatar = AvatarSerializer(many=False)
     class Meta:
         model = Witch
         fields = ['id', 'avatar']
