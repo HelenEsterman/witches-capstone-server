@@ -1,0 +1,100 @@
+[
+  {
+    "model": "witchesapi.equipment",
+    "pk": 1,
+    "fields": {
+      "label": "matches"
+    }
+  },
+  {
+    "model": "witchesapi.equipment",
+    "pk": 2,
+    "fields": {
+      "label": "ceramic bowl"
+    }
+  },
+  {
+    "model": "witchesapi.equipment",
+    "pk": 3,
+    "fields": {
+      "label": "fork"
+    }
+  },
+  {
+    "model": "witchesapi.equipment",
+    "pk": 4,
+    "fields": {
+      "label": "small jar"
+    }
+  },
+  {
+    "model": "witchesapi.equipment",
+    "pk": 5,
+    "fields": {
+      "label": "photograph of person"
+    }
+  },
+  {
+    "model": "witchesapi.equipment",
+    "pk": 6,
+    "fields": {
+      "label": "saucepan"
+    }
+  },
+  {
+    "model": "witchesapi.equipment",
+    "pk": 7,
+    "fields": {
+      "label": "dark glass bottle"
+    }
+  },
+  {
+    "model": "witchesapi.equipment",
+    "pk": 8,
+    "fields": {
+      "label": "muslin or cheesecloth"
+    }
+  },
+  {
+    "model": "witchesapi.equipment",
+    "pk": 9,
+    "fields": {
+      "label": "oil burner"
+    }
+  },
+  {
+    "model": "witchesapi.equipment",
+    "pk": 10,
+    "fields": {
+      "label": "needle and thread"
+    }
+  },
+  {
+    "model": "witchesapi.equipment",
+    "pk": 11,
+    "fields": {
+      "label": "string"
+    }
+  },
+  {
+    "model": "witchesapi.equipment",
+    "pk": 12,
+    "fields": {
+      "label": "jewelry chain"
+    }
+  },
+  {
+    "model": "witchesapi.equipment",
+    "pk": 13,
+    "fields": {
+      "label": "large glass bottle"
+    }
+  },
+  {
+    "model": "witchesapi.equipment",
+    "pk": 14,
+    "fields": {
+      "label": "small saucer"
+    }
+  }
+]

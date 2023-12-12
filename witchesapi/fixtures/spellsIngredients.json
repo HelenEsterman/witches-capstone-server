@@ -1,0 +1,569 @@
+[
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 1,
+    "fields": {
+      "spell": 1,
+      "ingredient": 1,
+      "measurement": "one"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 2,
+    "fields": {
+      "spell": 2,
+      "ingredient": 2,
+      "measurement": "one"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 3,
+    "fields": {
+      "spell": 2,
+      "ingredient": 3,
+      "measurement": "one"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 3,
+    "fields": {
+      "spell": 3,
+      "ingredient": 4,
+      "measurement": "a handful of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 4,
+    "fields": {
+      "spell": 3,
+      "ingredient": 5,
+      "measurement": "five drops of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 5,
+    "fields": {
+      "spell": 3,
+      "ingredient": 6,
+      "measurement": "five drops of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 6,
+    "fields": {
+      "spell": 3,
+      "ingredient": 7,
+      "measurement": "seven drops of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 7,
+    "fields": {
+      "spell": 3,
+      "ingredient": 8,
+      "measurement": "a teaspoon of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 8,
+    "fields": {
+      "spell": 3,
+      "ingredient": 9,
+      "measurement": "a teaspoon of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 9,
+    "fields": {
+      "spell": 3,
+      "ingredient": 10,
+      "measurement": "a teaspoon of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 10,
+    "fields": {
+      "spell": 3,
+      "ingredient": 11,
+      "measurement": "a teaspoon of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 11,
+    "fields": {
+      "spell": 4,
+      "ingredient": 3,
+      "measurement": "one"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 12,
+    "fields": {
+      "spell": 4,
+      "ingredient": 12,
+      "measurement": "three"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 13,
+    "fields": {
+      "spell": 4,
+      "ingredient": 13,
+      "measurement": "a little bit of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 14,
+    "fields": {
+      "spell": 4,
+      "ingredient": 14,
+      "measurement": "one"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 15,
+    "fields": {
+      "spell": 4,
+      "ingredient": 15,
+      "measurement": "a teaspoon of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 16,
+    "fields": {
+      "spell": 4,
+      "ingredient": 16,
+      "measurement": "a teaspoon of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 17,
+    "fields": {
+      "spell": 4,
+      "ingredient": 17,
+      "measurement": "a teaspoon of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 18,
+    "fields": {
+      "spell": 4,
+      "ingredient": 18,
+      "measurement": "a teaspoon of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 19,
+    "fields": {
+      "spell": 5,
+      "ingredient": 19,
+      "measurement": "one"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 20,
+    "fields": {
+      "spell": 5,
+      "ingredient": 20,
+      "measurement": "one part"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 21,
+    "fields": {
+      "spell": 5,
+      "ingredient": 21,
+      "measurement": "one part"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 22,
+    "fields": {
+      "spell": 5,
+      "ingredient": 22,
+      "measurement": "one quarter part"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 23,
+    "fields": {
+      "spell": 5,
+      "ingredient": 13,
+      "measurement": "six parts"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 24,
+    "fields": {
+      "spell": 5,
+      "ingredient": 23,
+      "measurement": "one"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 25,
+    "fields": {
+      "spell": 6,
+      "ingredient": 24,
+      "measurement": "two drops of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 26,
+    "fields": {
+      "spell": 6,
+      "ingredient": 25,
+      "measurement": "two drops of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 27,
+    "fields": {
+      "spell": 6,
+      "ingredient": 22,
+      "measurement": "two drops of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 28,
+    "fields": {
+      "spell": 6,
+      "ingredient": 26,
+      "measurement": "a hint of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 29,
+    "fields": {
+      "spell": 6,
+      "ingredient": 27,
+      "measurement": "two drops of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 30,
+    "fields": {
+      "spell": 6,
+      "ingredient": 3,
+      "measurement": "thirteen"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 31,
+    "fields": {
+      "spell": 7,
+      "ingredient": 28,
+      "measurement": "a little bit of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 32,
+    "fields": {
+      "spell": 7,
+      "ingredient": 29,
+      "measurement": "a little bit of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 33,
+    "fields": {
+      "spell": 7,
+      "ingredient": 30,
+      "measurement": "a little bit of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 34,
+    "fields": {
+      "spell": 7,
+      "ingredient": 31,
+      "measurement": "a little bit of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 35,
+    "fields": {
+      "spell": 7,
+      "ingredient": 8,
+      "measurement": "a little bit of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 36,
+    "fields": {
+      "spell": 7,
+      "ingredient": 32,
+      "measurement": "a little bit of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 37,
+    "fields": {
+      "spell": 8,
+      "ingredient": 33,
+      "measurement": "one"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 38,
+    "fields": {
+      "spell": 8,
+      "ingredient": 34,
+      "measurement": "a pinch of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 39,
+    "fields": {
+      "spell": 8,
+      "ingredient": 35,
+      "measurement": "a portion of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 40,
+    "fields": {
+      "spell": 8,
+      "ingredient": 36,
+      "measurement": "a sprinkling of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 41,
+    "fields": {
+      "spell": 8,
+      "ingredient": 18,
+      "measurement": "a dash of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 42,
+    "fields": {
+      "spell": 8,
+      "ingredient": 37,
+      "measurement": "a little morsel of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 43,
+    "fields": {
+      "spell": 8,
+      "ingredient": 38,
+      "measurement": "one"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 44,
+    "fields": {
+      "spell": 8,
+      "ingredient": 39,
+      "measurement": "one"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 45,
+    "fields": {
+      "spell": 8,
+      "ingredient": 3,
+      "measurement": "one"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 46,
+    "fields": {
+      "spell": 9,
+      "ingredient": 19,
+      "measurement": "one"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 47,
+    "fields": {
+      "spell": 9,
+      "ingredient": 28,
+      "measurement": "one leaf of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 48,
+    "fields": {
+      "spell": 9,
+      "ingredient": 29,
+      "measurement": "one sprig of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 49,
+    "fields": {
+      "spell": 9,
+      "ingredient": 40,
+      "measurement": "three"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 50,
+    "fields": {
+      "spell": 10,
+      "ingredient": 41,
+      "measurement": "one"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 51,
+    "fields": {
+      "spell": 10,
+      "ingredient": 42,
+      "measurement": "a length as long as your arm of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 52,
+    "fields": {
+      "spell": 10,
+      "ingredient": 43,
+      "measurement": "one (must have opening large enough to thread a jewelry chain through)"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 53,
+    "fields": {
+      "spell": 10,
+      "ingredient": 44,
+      "measurement": "one"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 54,
+    "fields": {
+      "spell": 10,
+      "ingredient": 45,
+      "measurement": "a few drops of"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 55,
+    "fields": {
+      "spell": 11,
+      "ingredient": 46,
+      "measurement": "two parts"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 56,
+    "fields": {
+      "spell": 11,
+      "ingredient": 47,
+      "measurement": "one part"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 57,
+    "fields": {
+      "spell": 11,
+      "ingredient": 48,
+      "measurement": "one part"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 58,
+    "fields": {
+      "spell": 11,
+      "ingredient": 49,
+      "measurement": "one part"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 59,
+    "fields": {
+      "spell": 11,
+      "ingredient": 50,
+      "measurement": "three parts"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 60,
+    "fields": {
+      "spell": 11,
+      "ingredient": 51,
+      "measurement": "one"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 61,
+    "fields": {
+      "spell": 11,
+      "ingredient": 52,
+      "measurement": "one"
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 62,
+    "fields": {
+      "spell": 11,
+      "ingredient": 53,
+      "measurement": "one"
+    }
+  }
+]

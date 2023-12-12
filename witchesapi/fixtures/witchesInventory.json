@@ -1,0 +1,37 @@
+[
+  {
+    "model": "witchesapi.witchInventory",
+    "pk": 1,
+    "fields": {
+      "witch": 1
+    }
+  },
+  {
+    "model": "witchesapi.witchInventory",
+    "pk": 2,
+    "fields": {
+      "witch": 2
+    }
+  },
+  {
+    "model": "witchesapi.witchInventory",
+    "pk": 3,
+    "fields": {
+      "witch": 3
+    }
+  },
+  {
+    "model": "witchesapi.witchInventory",
+    "pk": 4,
+    "fields": {
+      "witch": 4
+    }
+  },
+  {
+    "model": "witchesapi.witchInventory",
+    "pk": 5,
+    "fields": {
+      "witch": 5
+    }
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "model": "witchesapi.ingredientType",
+    "pk": 1,
+    "fields": {
+      "label": "Oils"
+    }
+  },
+  {
+    "model": "witchesapi.ingredientType",
+    "pk": 2,
+    "fields": {
+      "label": "Candles/Incense"
+    }
+  },
+  {
+    "model": "witchesapi.ingredientType",
+    "pk": 3,
+    "fields": {
+      "label": "Flowers/Herbs/Spices"
+    }
+  },
+  {
+    "model": "witchesapi.ingredientType",
+    "pk": 4,
+    "fields": {
+      "label": "Stones/Crystals"
+    }
+  },
+  {
+    "model": "witchesapi.ingredientType",
+    "pk": 5,
+    "fields": {
+      "label": "Fabrics"
+    }
+  },
+  {
+    "model": "witchesapi.ingredientType",
+    "pk": 6,
+    "fields": {
+      "label": "Other"
+    }
+  }
+]
