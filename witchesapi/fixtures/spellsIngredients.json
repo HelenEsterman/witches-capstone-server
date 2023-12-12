@@ -3,427 +3,225 @@
     "model": "witchesapi.spellIngredient",
     "pk": 1,
     "fields": {
-      "label": "any color candle"
+      "spell": 1,
+      "ingredient": 1,
+      "measurement": ""
     }
   },
   {
     "model": "witchesapi.spellIngredient",
     "pk": 2,
     "fields": {
-      "label": "matches"
+      "spell": 2,
+      "ingredient": 2,
+      "measurement": ""
     }
   },
   {
     "model": "witchesapi.spellIngredient",
     "pk": 3,
     "fields": {
-      "label": "red candle"
+      "spell": 2,
+      "ingredient": 3,
+      "measurement": ""
+    }
+  },
+  {
+    "model": "witchesapi.spellIngredient",
+    "pk": 3,
+    "fields": {
+      "spell": 3,
+      "ingredient": 4,
+      "measurement": "a handful of"
     }
   },
   {
     "model": "witchesapi.spellIngredient",
     "pk": 4,
     "fields": {
-      "label": "rose quartz"
+      "spell": 3,
+      "ingredient": 5,
+      "measurement": "five drops of"
     }
   },
   {
     "model": "witchesapi.spellIngredient",
     "pk": 5,
     "fields": {
-      "label": "talcum powder"
+      "spell": 3,
+      "ingredient": 6,
+      "measurement": "five drops of"
     }
   },
   {
     "model": "witchesapi.spellIngredient",
     "pk": 6,
     "fields": {
-      "label": "rose oil"
+      "spell": 3,
+      "ingredient": 7,
+      "measurement": "seven drops of"
     }
   },
   {
     "model": "witchesapi.spellIngredient",
     "pk": 7,
     "fields": {
-      "label": "sandalwood oil"
+      "spell": 3,
+      "ingredient": 8,
+      "measurement": "a teaspoon of"
     }
   },
   {
     "model": "witchesapi.spellIngredient",
     "pk": 8,
     "fields": {
-      "label": "lavender oil"
+      "spell": 3,
+      "ingredient": 9,
+      "measurement": "a teaspoon of"
     }
   },
   {
     "model": "witchesapi.spellIngredient",
     "pk": 9,
     "fields": {
-      "label": "powdered cardamom seed"
+      "spell": 3,
+      "ingredient": 10,
+      "measurement": "a teaspoon of"
     }
   },
   {
     "model": "witchesapi.spellIngredient",
     "pk": 10,
     "fields": {
-      "label": "powdered allspice"
+      "spell": 3,
+      "ingredient": 11,
+      "measurement": "a teaspoon of"
     }
   },
   {
     "model": "witchesapi.spellIngredient",
     "pk": 11,
     "fields": {
-      "label": "crushed dried lavender"
+      "spell": 4,
+      "ingredient": 3,
+      "measurement": ""
     }
   },
   {
     "model": "witchesapi.spellIngredient",
     "pk": 12,
     "fields": {
-      "label": "crushed dried rose petals"
+      "spell": 4,
+      "ingredient": 12,
+      "measurement": "three"
     }
   },
   {
     "model": "witchesapi.spellIngredient",
     "pk": 13,
     "fields": {
-      "label": "ceramic bowl"
+      "spell": 4,
+      "ingredient": 13,
+      "measurement": "a little bit of"
     }
   },
   {
     "model": "witchesapi.spellIngredient",
     "pk": 14,
     "fields": {
-      "label": "sugar cubes"
+      "spell": 4,
+      "ingredient": 14,
+      "measurement": ""
     }
   },
   {
     "model": "witchesapi.spellIngredient",
     "pk": 15,
     "fields": {
-      "label": "pure virgin olive oil"
+      "spell": 4,
+      "ingredient": 15,
+      "measurement": "a teaspoon of"
     }
   },
   {
     "model": "witchesapi.spellIngredient",
     "pk": 16,
     "fields": {
-      "label": "dark cloth"
+      "spell": 4,
+      "ingredient": 16,
+      "measurement": "a teaspoon of"
     }
   },
   {
     "model": "witchesapi.spellIngredient",
     "pk": 17,
     "fields": {
-      "label": "chilli powder"
+      "spell": 4,
+      "ingredient": 17,
+      "measurement": "a teaspoon of"
     }
   },
   {
     "model": "witchesapi.spellIngredient",
     "pk": 18,
     "fields": {
-      "label": "black pepper"
+      "spell": 4,
+      "ingredient": 18,
+      "measurement": "a teaspoon of"
     }
   },
   {
     "model": "witchesapi.spellIngredient",
     "pk": 19,
     "fields": {
-      "label": "paprika powder"
+      "spell": 5,
+      "ingredient": 19,
+      "measurement": ""
     }
   },
   {
     "model": "witchesapi.spellIngredient",
     "pk": 20,
     "fields": {
-      "label": "cayenne pepper"
+      "spell": 5,
+      "ingredient": 20,
+      "measurement": "one part"
     }
   },
   {
     "model": "witchesapi.spellIngredient",
     "pk": 21,
     "fields": {
-      "label": "basil powder"
+      "spell": 5,
+      "ingredient": 21,
+      "measurement": "one part"
     }
   },
   {
     "model": "witchesapi.spellIngredient",
     "pk": 22,
     "fields": {
-      "label": "spearmint oil"
+      "spell": 5,
+      "ingredient": 22,
+      "measurement": "one quarter part"
     }
   },
   {
     "model": "witchesapi.spellIngredient",
     "pk": 23,
     "fields": {
-      "label": "cinnamon oil"
+      "spell": 5,
+      "ingredient": 13,
+      "measurement": "six parts"
     }
   },
   {
     "model": "witchesapi.spellIngredient",
     "pk": 24,
     "fields": {
-      "label": "oil burner"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 25,
-    "fields": {
-      "label": "patchouli oil"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 26,
-    "fields": {
-      "label": "orange oil"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 27,
-    "fields": {
-      "label": "clove oil"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 28,
-    "fields": {
-      "label": "vetiver oil"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 29,
-    "fields": {
-      "label": "bay leaf"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 30,
-    "fields": {
-      "label": "rosemary"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 31,
-    "fields": {
-      "label": "cinnamon powder"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 32,
-    "fields": {
-      "label": "vervain"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 33,
-    "fields": {
-      "label": "peppermint leaf"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 34,
-    "fields": {
-      "label": "red cloth"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 35,
-    "fields": {
-      "label": "needle and thread"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 36,
-    "fields": {
-      "label": "white pepper"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 37,
-    "fields": {
-      "label": "sage"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 38,
-    "fields": {
-      "label": "powdered garlic"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 39,
-    "fields": {
-      "label": "tobacco"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 40,
-    "fields": {
-      "label": "rose thorn"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 41,
-    "fields": {
-      "label": "cat's eye stone"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 42,
-    "fields": {
-      "label": "green cloth"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 43,
-    "fields": {
-      "label": "cardamom seeds"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 44,
-    "fields": {
-      "label": "string"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 45,
-    "fields": {
-      "label": "yellow cloth"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 46,
-    "fields": {
-      "label": "marigold petals"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 47,
-    "fields": {
-      "label": "magnet"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 48,
-    "fields": {
-      "label": "iron filings"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 49,
-    "fields": {
-      "label": "yellow paper"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 50,
-    "fields": {
-      "label": "gold marker"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 51,
-    "fields": {
-      "label": "yellow candle"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 52,
-    "fields": {
-      "label": "frankincense incense"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 53,
-    "fields": {
-      "label": "red thread"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 54,
-    "fields": {
-      "label": "rose water"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 55,
-    "fields": {
-      "label": "sea water"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 56,
-    "fields": {
-      "label": "rain water"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 57,
-    "fields": {
-      "label": "spring water"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 58,
-    "fields": {
-      "label": "alcohol"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 59,
-    "fields": {
-      "label": "mirrored glass"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 60,
-    "fields": {
-      "label": "blue candle"
-    }
-  },
-  {
-    "model": "witchesapi.spellIngredient",
-    "pk": 61,
-    "fields": {
-      "label": "white rose"
+      "spell": 5,
+      "ingredient": 23,
+      "measurement": "one"
     }
   }
 ]

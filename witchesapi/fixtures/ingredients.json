@@ -1,0 +1,209 @@
+[
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 1,
+    "fields": {
+      "label": "scented candle",
+      "healing_property": "calming",
+      "type": 2
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 2,
+    "fields": {
+      "label": "rose quartz",
+      "healing_property": "love",
+      "type": 4
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 3,
+    "fields": {
+      "label": "red candle",
+      "healing_property": "power",
+      "type": 2
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 4,
+    "fields": {
+      "label": "talcum powder",
+      "healing_property": "clarity",
+      "type": 6
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 5,
+    "fields": {
+      "label": "rose oil",
+      "healing_property": "emotional well-being",
+      "type": 1
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 6,
+    "fields": {
+      "label": "sandalwood oil",
+      "healing_property": "enhances intimacy",
+      "type": 1
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 7,
+    "fields": {
+      "label": "lavender oil",
+      "healing_property": "protection",
+      "type": 1
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 8,
+    "fields": {
+      "label": "powdered cardamom seed",
+      "healing_property": "uplifting the spirit",
+      "type": 3
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 9,
+    "fields": {
+      "label": "powdered allspice",
+      "healing_property": "purification",
+      "type": 3
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 10,
+    "fields": {
+      "label": "crushed dried lavender",
+      "healing_property": "ward off negative energy",
+      "type": 3
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 11,
+    "fields": {
+      "label": "crushed dried rose petals",
+      "healing_property": "love and beauty",
+      "type": 3
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 12,
+    "fields": {
+      "label": "sugar cube",
+      "healing_property": "psychic sight",
+      "type": 6
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 13,
+    "fields": {
+      "label": "pure virgin olive oil",
+      "healing_property": "purity",
+      "type": 1
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 14,
+    "fields": {
+      "label": "black cloth",
+      "healing_property": "closure",
+      "type": 5
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 15,
+    "fields": {
+      "label": "chilli powder",
+      "healing_property": "remove blocks",
+      "type": 3
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 16,
+    "fields": {
+      "label": "black pepper",
+      "healing_property": "personal power",
+      "type": 3
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 17,
+    "fields": {
+      "label": "paprika powder",
+      "healing_property": "freedom",
+      "type": 3
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 18,
+    "fields": {
+      "label": "cayenne pepper",
+      "healing_property": "protection",
+      "type": 3
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 19,
+    "fields": {
+      "label": "green cloth",
+      "healing_property": "balance",
+      "type": 5
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 20,
+    "fields": {
+      "label": "basil powder",
+      "healing_property": "money",
+      "type": 3
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 21,
+    "fields": {
+      "label": "spearmint oil",
+      "healing_property": "cleansing and healing",
+      "type": 1
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 22,
+    "fields": {
+      "label": "cinnamon oil",
+      "healing_property": "wealth",
+      "type": 1
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 23,
+    "fields": {
+      "label": "coin",
+      "healing_property": "good luck",
+      "type": 6
+    }
+  }
+]

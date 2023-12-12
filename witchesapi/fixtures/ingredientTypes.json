@@ -17,7 +17,7 @@
     "model": "witchesapi.ingredientType",
     "pk": 3,
     "fields": {
-      "label": "Herbs/Spices"
+      "label": "Flowers/Herbs/Spices"
     }
   },
   {
@@ -31,7 +31,7 @@
     "model": "witchesapi.ingredientType",
     "pk": 5,
     "fields": {
-      "label": "Flowers"
+      "label": "Fabrics"
     }
   },
   {

@@ -1,0 +1,13 @@
+[
+  {
+    "model": "witchesapi.witchInventoryIngredient",
+    "pk": 1,
+    "fields": {
+      "inventory": "",
+      "ingredient": "",
+      "quantity": "",
+      "unit": "",
+      "added_on": ""
+    }
+  }
+]

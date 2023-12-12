@@ -1,0 +1,58 @@
+[
+  {
+    "model": "witchesapi.equipment",
+    "pk": 1,
+    "fields": {
+      "label": "matches"
+    }
+  },
+  {
+    "model": "witchesapi.equipment",
+    "pk": 2,
+    "fields": {
+      "label": "ceramic bowl"
+    }
+  },
+  {
+    "model": "witchesapi.equipment",
+    "pk": 3,
+    "fields": {
+      "label": "fork"
+    }
+  },
+  {
+    "model": "witchesapi.equipment",
+    "pk": 4,
+    "fields": {
+      "label": "small jar"
+    }
+  },
+  {
+    "model": "witchesapi.equipment",
+    "pk": 5,
+    "fields": {
+      "label": "photograph of person"
+    }
+  },
+  {
+    "model": "witchesapi.equipment",
+    "pk": 6,
+    "fields": {
+      "label": "saucepan"
+    }
+  },
+  {
+    "model": "witchesapi.equipment",
+    "pk": 7,
+    "fields": {
+      "label": "dark glass bottle"
+    }
+  },
+  {
+    "model": "witchesapi.equipment",
+    "pk": 8,
+    "fields": {
+      "label": "muslin or cheesecloth"
+    }
+  }
+]
