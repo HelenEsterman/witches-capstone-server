@@ -205,5 +205,276 @@
       "healing_property": "good luck",
       "type": 6
     }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 24,
+    "fields": {
+      "label": "patchouli oil",
+      "healing_property": "releasing negative emotions",
+      "type": 1
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 25,
+    "fields": {
+      "label": "orange oil",
+      "healing_property": "inspire creativity",
+      "type": 1
+    }
+  },
+
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 26,
+    "fields": {
+      "label": "clove oil",
+      "healing_property": "awakens the senses",
+      "type": 1
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 27,
+    "fields": {
+      "label": "vetiver oil",
+      "healing_property": "tranquility",
+      "type": 1
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 28,
+    "fields": {
+      "label": "bay leaf",
+      "healing_property": "wisdom",
+      "type": 3
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 29,
+    "fields": {
+      "label": "rosemary",
+      "healing_property": "clear negative energy",
+      "type": 3
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 30,
+    "fields": {
+      "label": "powdered cinnamon",
+      "healing_property": "protection, healing, and prosperity",
+      "type": 3
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 31,
+    "fields": {
+      "label": "vervain",
+      "healing_property": "protection and purification",
+      "type": 3
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 32,
+    "fields": {
+      "label": "powdered peppermint",
+      "healing_property": "psychic dreaming",
+      "type": 3
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 33,
+    "fields": {
+      "label": "red cloth",
+      "healing_property": "stability and security",
+      "type": 5
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 34,
+    "fields": {
+      "label": "white pepper",
+      "healing_property": "clarification and calm",
+      "type": 3
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 35,
+    "fields": {
+      "label": "sage",
+      "healing_property": "purifying",
+      "type": 3
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 36,
+    "fields": {
+      "label": "powdered garlic",
+      "healing_property": "protection",
+      "type": 3
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 37,
+    "fields": {
+      "label": "tobacco",
+      "healing_property": "protective veil and carrying prayers",
+      "type": 3
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 38,
+    "fields": {
+      "label": "thorn (from rose or cactus)",
+      "healing_property": "protective boundary",
+      "type": 3
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 39,
+    "fields": {
+      "label": "tiger's eye",
+      "healing_property": "overcome lethargy",
+      "type": 4
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 40,
+    "fields": {
+      "label": "whole cardamom seeds",
+      "healing_property": "soothes mind and soul",
+      "type": 3
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 41,
+    "fields": {
+      "label": "orange candle",
+      "healing_property": "courage",
+      "type": 2
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 42,
+    "fields": {
+      "label": "fine thread copper wire",
+      "healing_property": "positive self confidence",
+      "type": 6
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 43,
+    "fields": {
+      "label": "blue bead",
+      "healing_property": "protect from bad luck",
+      "type": 4
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 44,
+    "fields": {
+      "label": "sandalwood incense",
+      "healing_property": "inner unity",
+      "type": 2
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 45,
+    "fields": {
+      "label": "lemongrass oil",
+      "healing_property": "transforms negative energy into positive",
+      "type": 1
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 46,
+    "fields": {
+      "label": "rose water",
+      "healing_property": "clear negative energy",
+      "type": 6
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 47,
+    "fields": {
+      "label": "sea water",
+      "healing_property": "calming protection",
+      "type": 6
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 48,
+    "fields": {
+      "label": "rain water",
+      "healing_property": "enhance relaxation",
+      "type": 6
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 49,
+    "fields": {
+      "label": "spring water",
+      "healing_property": "harmony",
+      "type": 6
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 50,
+    "fields": {
+      "label": "alcohol",
+      "healing_property": "clarity",
+      "type": 6
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 51,
+    "fields": {
+      "label": "piece of mirrored glass",
+      "healing_property": "spiritual insight",
+      "type": 6
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 52,
+    "fields": {
+      "label": "blue candle",
+      "healing_property": "communication and forgiveness",
+      "type": 2
+    }
+  },
+  {
+    "model": "witchesapi.ingredient",
+    "pk": 53,
+    "fields": {
+      "label": "white rose",
+      "healing_property": "change and positive growth",
+      "type": 3
+    }
   }
 ]

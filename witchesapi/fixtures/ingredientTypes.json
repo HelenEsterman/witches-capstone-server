@@ -10,7 +10,7 @@
     "model": "witchesapi.ingredientType",
     "pk": 2,
     "fields": {
-      "label": "Candles"
+      "label": "Candles/Incense"
     }
   },
   {

@@ -3,11 +3,275 @@
     "model": "witchesapi.witchInventoryIngredient",
     "pk": 1,
     "fields": {
-      "inventory": "",
-      "ingredient": "",
-      "quantity": "",
-      "unit": "",
-      "added_on": ""
+      "inventory": 1,
+      "ingredient": 1,
+      "quantity": 3,
+      "unit": "candles",
+      "added_on": "2023-12-12"
+    }
+  },
+  {
+    "model": "witchesapi.witchInventoryIngredient",
+    "pk": 2,
+    "fields": {
+      "inventory": 1,
+      "ingredient": 2,
+      "quantity": 1,
+      "unit": "stone",
+      "added_on": "2023-12-12"
+    }
+  },
+  {
+    "model": "witchesapi.witchInventoryIngredient",
+    "pk": 3,
+    "fields": {
+      "inventory": 1,
+      "ingredient": 3,
+      "quantity": 4,
+      "unit": "candles",
+      "added_on": "2023-12-12"
+    }
+  },
+  {
+    "model": "witchesapi.witchInventoryIngredient",
+    "pk": 4,
+    "fields": {
+      "inventory": 1,
+      "ingredient": 4,
+      "quantity": 1,
+      "unit": "bottle",
+      "added_on": "2023-12-12"
+    }
+  },
+  {
+    "model": "witchesapi.witchInventoryIngredient",
+    "pk": 5,
+    "fields": {
+      "inventory": 1,
+      "ingredient": 5,
+      "quantity": 1,
+      "unit": "bottle",
+      "added_on": "2023-12-12"
+    }
+  },
+  {
+    "model": "witchesapi.witchInventoryIngredient",
+    "pk": 6,
+    "fields": {
+      "inventory": 2,
+      "ingredient": 6,
+      "quantity": 2,
+      "unit": "bottles",
+      "added_on": "2023-12-12"
+    }
+  },
+  {
+    "model": "witchesapi.witchInventoryIngredient",
+    "pk": 7,
+    "fields": {
+      "inventory": 2,
+      "ingredient": 7,
+      "quantity": 2,
+      "unit": "bottles",
+      "added_on": "2023-12-12"
+    }
+  },
+  {
+    "model": "witchesapi.witchInventoryIngredient",
+    "pk": 8,
+    "fields": {
+      "inventory": 2,
+      "ingredient": 8,
+      "quantity": 1,
+      "unit": "bottle",
+      "added_on": "2023-12-12"
+    }
+  },
+  {
+    "model": "witchesapi.witchInventoryIngredient",
+    "pk": 9,
+    "fields": {
+      "inventory": 2,
+      "ingredient": 9,
+      "quantity": 2,
+      "unit": "bottles",
+      "added_on": "2023-12-12"
+    }
+  },
+  {
+    "model": "witchesapi.witchInventoryIngredient",
+    "pk": 10,
+    "fields": {
+      "inventory": 2,
+      "ingredient": 10,
+      "quantity": 3,
+      "unit": "bags",
+      "added_on": "2023-12-12"
+    }
+  },
+  {
+    "model": "witchesapi.witchInventoryIngredient",
+    "pk": 11,
+    "fields": {
+      "inventory": 3,
+      "ingredient": 11,
+      "quantity": 2,
+      "unit": "bags",
+      "added_on": "2023-12-12"
+    }
+  },
+  {
+    "model": "witchesapi.witchInventoryIngredient",
+    "pk": 12,
+    "fields": {
+      "inventory": 3,
+      "ingredient": 12,
+      "quantity": 1,
+      "unit": "container",
+      "added_on": "2023-12-12"
+    }
+  },
+  {
+    "model": "witchesapi.witchInventoryIngredient",
+    "pk": 13,
+    "fields": {
+      "inventory": 3,
+      "ingredient": 13,
+      "quantity": 2,
+      "unit": "bottles",
+      "added_on": "2023-12-12"
+    }
+  },
+  {
+    "model": "witchesapi.witchInventoryIngredient",
+    "pk": 14,
+    "fields": {
+      "inventory": 3,
+      "ingredient": 14,
+      "quantity": 6,
+      "unit": "cloths",
+      "added_on": "2023-12-12"
+    }
+  },
+  {
+    "model": "witchesapi.witchInventoryIngredient",
+    "pk": 15,
+    "fields": {
+      "inventory": 3,
+      "ingredient": 15,
+      "quantity": 1,
+      "unit": "bottle",
+      "added_on": "2023-12-12"
+    }
+  },
+  {
+    "model": "witchesapi.witchInventoryIngredient",
+    "pk": 16,
+    "fields": {
+      "inventory": 4,
+      "ingredient": 16,
+      "quantity": 2,
+      "unit": "bottles",
+      "added_on": "2023-12-12"
+    }
+  },
+  {
+    "model": "witchesapi.witchInventoryIngredient",
+    "pk": 17,
+    "fields": {
+      "inventory": 4,
+      "ingredient": 17,
+      "quantity": 1,
+      "unit": "bottle",
+      "added_on": "2023-12-12"
+    }
+  },
+  {
+    "model": "witchesapi.witchInventoryIngredient",
+    "pk": 18,
+    "fields": {
+      "inventory": 4,
+      "ingredient": 18,
+      "quantity": 2,
+      "unit": "bottles",
+      "added_on": "2023-12-12"
+    }
+  },
+  {
+    "model": "witchesapi.witchInventoryIngredient",
+    "pk": 19,
+    "fields": {
+      "inventory": 4,
+      "ingredient": 19,
+      "quantity": 2,
+      "unit": "cloths",
+      "added_on": "2023-12-12"
+    }
+  },
+  {
+    "model": "witchesapi.witchInventoryIngredient",
+    "pk": 20,
+    "fields": {
+      "inventory": 4,
+      "ingredient": 20,
+      "quantity": 1,
+      "unit": "bottle",
+      "added_on": "2023-12-12"
+    }
+  },
+  {
+    "model": "witchesapi.witchInventoryIngredient",
+    "pk": 21,
+    "fields": {
+      "inventory": 5,
+      "ingredient": 21,
+      "quantity": 1,
+      "unit": "bottle",
+      "added_on": "2023-12-12"
+    }
+  },
+  {
+    "model": "witchesapi.witchInventoryIngredient",
+    "pk": 22,
+    "fields": {
+      "inventory": 5,
+      "ingredient": 22,
+      "quantity": 1,
+      "unit": "bottle",
+      "added_on": "2023-12-12"
+    }
+  },
+  {
+    "model": "witchesapi.witchInventoryIngredient",
+    "pk": 23,
+    "fields": {
+      "inventory": 5,
+      "ingredient": 23,
+      "quantity": 100,
+      "unit": "coins",
+      "added_on": "2023-12-12"
+    }
+  },
+  {
+    "model": "witchesapi.witchInventoryIngredient",
+    "pk": 24,
+    "fields": {
+      "inventory": 5,
+      "ingredient": 24,
+      "quantity": 3,
+      "unit": "bottles",
+      "added_on": "2023-12-12"
+    }
+  },
+  {
+    "model": "witchesapi.witchInventoryIngredient",
+    "pk": 25,
+    "fields": {
+      "inventory": 5,
+      "ingredient": 25,
+      "quantity": 2,
+      "unit": "bottles",
+      "added_on": "2023-12-12"
     }
   }
 ]

@@ -86,5 +86,85 @@
       "spell": 5,
       "equipment": 8
     }
+  },
+  {
+    "model": "witchesapi.spellEquipment",
+    "pk": 12,
+    "fields": {
+      "spell": 6,
+      "equipment": 9
+    }
+  },
+  {
+    "model": "witchesapi.spellEquipment",
+    "pk": 13,
+    "fields": {
+      "spell": 6,
+      "equipment": 1
+    }
+  },
+  {
+    "model": "witchesapi.spellEquipment",
+    "pk": 14,
+    "fields": {
+      "spell": 8,
+      "equipment": 1
+    }
+  },
+  {
+    "model": "witchesapi.spellEquipment",
+    "pk": 15,
+    "fields": {
+      "spell": 8,
+      "equipment": 10
+    }
+  },
+  {
+    "model": "witchesapi.spellEquipment",
+    "pk": 16,
+    "fields": {
+      "spell": 9,
+      "equipment": 11
+    }
+  },
+  {
+    "model": "witchesapi.spellEquipment",
+    "pk": 17,
+    "fields": {
+      "spell": 10,
+      "equipment": 1
+    }
+  },
+  {
+    "model": "witchesapi.spellEquipment",
+    "pk": 18,
+    "fields": {
+      "spell": 10,
+      "equipment": 12
+    }
+  },
+  {
+    "model": "witchesapi.spellEquipment",
+    "pk": 19,
+    "fields": {
+      "spell": 11,
+      "equipment": 13
+    }
+  },
+  {
+    "model": "witchesapi.spellEquipment",
+    "pk": 20,
+    "fields": {
+      "spell": 11,
+      "equipment": 1
+    }
+  },
+  {
+    "model": "witchesapi.spellEquipment",
+    "pk": 21,
+    "fields": {
+      "spell": 11,
+      "equipment": 14
+    }
   }
 ]

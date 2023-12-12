@@ -54,5 +54,47 @@
     "fields": {
       "label": "muslin or cheesecloth"
     }
+  },
+  {
+    "model": "witchesapi.equipment",
+    "pk": 9,
+    "fields": {
+      "label": "oil burner"
+    }
+  },
+  {
+    "model": "witchesapi.equipment",
+    "pk": 10,
+    "fields": {
+      "label": "needle and thread"
+    }
+  },
+  {
+    "model": "witchesapi.equipment",
+    "pk": 11,
+    "fields": {
+      "label": "string"
+    }
+  },
+  {
+    "model": "witchesapi.equipment",
+    "pk": 12,
+    "fields": {
+      "label": "jewelry chain"
+    }
+  },
+  {
+    "model": "witchesapi.equipment",
+    "pk": 13,
+    "fields": {
+      "label": "large glass bottle"
+    }
+  },
+  {
+    "model": "witchesapi.equipment",
+    "pk": 14,
+    "fields": {
+      "label": "small saucer"
+    }
   }
 ]

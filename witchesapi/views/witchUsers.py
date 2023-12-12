@@ -6,7 +6,7 @@ from rest_framework.authtoken.models import Token
 
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate
-from witchesapi.models import Witch, Avatar
+from witchesapi.models import Witch, Avatar, WitchInventory
 
 
 class UserSerializer(serializers.ModelSerializer):
@@ -31,11 +31,15 @@ class WitchUserViewSet(viewsets.ViewSet):
                 last_name=serializer.validated_data['last_name']
             )
             # create witch object same time you create user obj from request body data
-            Witch.objects.create(
+            witch = Witch.objects.create(
                 user = user,
                 avatar = Avatar.objects.get(pk=request.data["avatar"]),
                 nickname = request.data.get('nickname'),
                 coven = request.data.get('coven')
+            )
+            # create witch inventory same time that you create a witch
+            WitchInventory.objects.create(
+                witch = witch
             )
             # create token associated with user
             token, created = Token.objects.get_or_create(user=user)
