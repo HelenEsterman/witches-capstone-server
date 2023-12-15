@@ -16,13 +16,13 @@ class AvatarViewSet(viewsets.ViewSet):
     def list(self, request):
         avatars = Avatar.objects.all()
         serializer = AvatarSerializer(avatars, many=True, context={'request': request})
-        return Response(serializer.data, status=status.HTTP_200_OK)
+        return Response(serializer.data)
 
     def retrieve(self, request, pk=None):
         try:
             avatar = Avatar.objects.get(pk=pk)
             serializer = AvatarSerializer(avatar, many=False, context={'request': request})
-            return Response(serializer.data, status=status.HTTP_200_OK)
+            return Response(serializer.data)
 
         except Avatar.DoesNotExist:
             return Response(status=status.HTTP_404_NOT_FOUND)

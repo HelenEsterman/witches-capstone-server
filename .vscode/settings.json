@@ -6,6 +6,9 @@
     "--disable=line-too-long",
     "--disable=missing-module-docstring",
     "--disable=missing-class-docstring",
-    "--disable=invalid-name"
-  ]
+    "--disable=invalid-name",
+    "--disable=trailing-newlines",
+    "--disable=trailing-whitespaces"
+  ],
+  "python.REPL.enableREPLSmartSend": false
 }
