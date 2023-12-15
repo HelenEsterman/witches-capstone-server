@@ -12,4 +12,4 @@ class Spell(models.Model):
     additional_info = models.CharField(max_length=400, blank=True)
     favorite = models.BooleanField(default=False)
     ingredients = models.ManyToManyField("Ingredient", through="SpellIngredient", related_name="spells")
-    equipment = models.ManyToManyField("Equipment", through="SpellEquipment", related_name="spell_equipment")
+    equipment = models.ManyToManyField("Equipment", through="SpellEquipment", related_name="spells")
