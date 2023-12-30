@@ -12,6 +12,7 @@ python3 manage.py loaddata witches
 python3 manage.py loaddata witchesInventory
 python3 manage.py loaddata ingredientTypes
 python3 manage.py loaddata ingredients
+python3 manage.py loaddata units
 python3 manage.py loaddata witchesInventoryIngredient
 python3 manage.py loaddata equipment
 python3 manage.py loaddata spells

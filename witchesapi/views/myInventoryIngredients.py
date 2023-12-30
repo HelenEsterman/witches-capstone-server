@@ -1,7 +1,7 @@
 from rest_framework import viewsets, status
 from rest_framework.response import Response
 from rest_framework import serializers
-from witchesapi.models import WitchInventoryIngredient, WitchInventory, Witch, Ingredient
+from witchesapi.models import WitchInventoryIngredient, WitchInventory, Witch, Ingredient, Unit
 from .avatars import AvatarSerializer
 from .ingredients import IngredientSerializer
 from datetime import datetime
@@ -21,12 +21,19 @@ class InventorySerializer(serializers.ModelSerializer):
         model = WitchInventory
         fields = ['witch']
 
+class UnitSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Unit
+        fields = ['id', 'label']
+
 # define a serializer for the inventory ingredients
 class MyInventoryIngredientSerializer(serializers.ModelSerializer):
     # serialize inventory obj
     inventory = InventorySerializer(many=False)
     # serialize ingredient obj by importing IngredientSerializer
     ingredient = IngredientSerializer(many=False)
+
+    unit = UnitSerializer(many=False)
     class Meta:
         model = WitchInventoryIngredient
         fields = ['id','inventory','ingredient', 'quantity', 'unit', 'added_on']
@@ -60,12 +67,11 @@ class MyInventoryIngredientViewSet(viewsets.ViewSet):
     def create(self, request):
         # get data values from request body
         quantity = request.data['quantity']
-        unit = request.data['unit']
 
         # instantiate a witchInventoryIngredient object to have a row PK to work with
         witchInventoryIngredient = WitchInventoryIngredient.objects.create(
             quantity = quantity,
-            unit = unit,
+            unit = Unit.objects.get(pk=request.data["unit"]),
             ingredient = Ingredient.objects.get(pk=request.data["ingredient"]),
             inventory = WitchInventory.objects.get(pk=request.auth.user.id),
         )

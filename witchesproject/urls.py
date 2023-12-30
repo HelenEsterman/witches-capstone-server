@@ -1,13 +1,15 @@
 from django.contrib import admin
 from django.urls import include, path
 from rest_framework import routers
-from witchesapi.views import WitchUserViewSet, IngredientViewSet, AvatarViewSet, MyInventoryIngredientViewSet, SpellViewSet
+from witchesapi.views import WitchUserViewSet, IngredientViewSet, AvatarViewSet, MyInventoryIngredientViewSet, SpellViewSet, UnitViewSet, IngredientTypeViewSet
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'spells', SpellViewSet, 'spell')
 router.register(r'ingredients', IngredientViewSet, 'ingredient')
 router.register(r'avatars', AvatarViewSet, 'avatar')
 router.register(r'myIngredients', MyInventoryIngredientViewSet, 'myIngredient' )
+router.register(r'units', UnitViewSet, 'unit' )
+router.register(r'types', IngredientTypeViewSet, 'type' )
 
 urlpatterns = [
     path('', include(router.urls)),
