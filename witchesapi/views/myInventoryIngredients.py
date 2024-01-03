@@ -1,10 +1,11 @@
 from rest_framework import viewsets, status
 from rest_framework.response import Response
 from rest_framework import serializers
-from witchesapi.models import WitchInventoryIngredient, WitchInventory, Witch, Ingredient
+from witchesapi.models import WitchInventoryIngredient, WitchInventory, Witch, Ingredient, Unit
 from .avatars import AvatarSerializer
 from .ingredients import IngredientSerializer
 from datetime import datetime
+# 
 
 # define serializer for 'witch' key on 'inventory' key on obj
 class WitchSerializer(serializers.ModelSerializer):
@@ -21,12 +22,19 @@ class InventorySerializer(serializers.ModelSerializer):
         model = WitchInventory
         fields = ['witch']
 
+class UnitSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Unit
+        fields = ['id', 'label']
+
 # define a serializer for the inventory ingredients
 class MyInventoryIngredientSerializer(serializers.ModelSerializer):
     # serialize inventory obj
     inventory = InventorySerializer(many=False)
     # serialize ingredient obj by importing IngredientSerializer
     ingredient = IngredientSerializer(many=False)
+
+    unit = UnitSerializer(many=False)
     class Meta:
         model = WitchInventoryIngredient
         fields = ['id','inventory','ingredient', 'quantity', 'unit', 'added_on']
@@ -58,21 +66,39 @@ class MyInventoryIngredientViewSet(viewsets.ViewSet):
             return Response(status=status.HTTP_404_NOT_FOUND)
         
     def create(self, request):
-        # get data values from request body
+        #  # get data values from request body
         quantity = request.data['quantity']
-        unit = request.data['unit']
+        unit_id = request.data['unit']
+        ingredient_id = request.data['ingredient']
+        inventory_id = request.auth.user.id
 
-        # instantiate a witchInventoryIngredient object to have a row PK to work with
-        witchInventoryIngredient = WitchInventoryIngredient.objects.create(
-            quantity = quantity,
-            unit = unit,
-            ingredient = Ingredient.objects.get(pk=request.data["ingredient"]),
-            inventory = WitchInventory.objects.get(pk=request.auth.user.id),
-        )
-        # serialize data into json format to be processed
-        serializer = MyInventoryIngredientSerializer(witchInventoryIngredient, context={'request': request})
-        return Response(serializer.data, status=status.HTTP_201_CREATED)
-    
+        # Check if an inventory ingredient with the same inventory_id, unit_id, and ingredient_id already exists
+        existing_ingredient = WitchInventoryIngredient.objects.filter(
+            inventory_id=inventory_id,
+            unit_id=unit_id,
+            ingredient_id=ingredient_id
+        ).first()
+
+        if existing_ingredient:
+            # If it exists, update the quantity
+            existing_ingredient.quantity = quantity
+            existing_ingredient.save()
+             # Serialize data into json format to be processed
+            serializer = MyInventoryIngredientSerializer(existing_ingredient, context={'request': request})
+            return Response(serializer.data, status=status.HTTP_200_OK)
+
+        else:
+            # instantiate a witchInventoryIngredient object to have a row PK to work with
+            witchInventoryIngredient = WitchInventoryIngredient.objects.create(
+                quantity = quantity,
+                unit = Unit.objects.get(pk=request.data["unit"]),
+                ingredient = Ingredient.objects.get(pk=request.data["ingredient"]),
+                inventory = WitchInventory.objects.get(pk=request.auth.user.id),
+            )
+            # serialize data into json format to be processed
+            serializer = MyInventoryIngredientSerializer(witchInventoryIngredient, context={'request': request})
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        
     def update(self, request, pk=None):
         try:
             # grab the object with pk from client request URL
