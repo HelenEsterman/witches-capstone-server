@@ -106,24 +106,43 @@ class MyInventoryIngredientViewSet(viewsets.ViewSet):
 
             # check that the current user trying to edit IS owner of ingredient
             if witchInventoryIngredient.inventory_id == request.auth.user.id:
-                
+
                 # serialize the request body data and assign it to variable
                 serializer = WitchInventoryIngredientSerializer(data=request.data)
 
                 # checking to see if the data was properly serialized, meaning that all fields defined within serializer, were sent from client within request body
                 if serializer.is_valid():
-                    witchInventoryIngredient.ingredient = serializer.validated_data['ingredient']
-                    witchInventoryIngredient.quantity = serializer.validated_data['quantity']
-                    witchInventoryIngredient.unit = serializer.validated_data['unit']
-                    # Update the added_on field to the current date and time
-                    witchInventoryIngredient.added_on = datetime.now()
 
-                    # save new updated object
-                    witchInventoryIngredient.save()
+                    # Check if an inventory ingredient with the same inventory_id, unit_id, and ingredient_id already exists
+                    existing_ingredient = WitchInventoryIngredient.objects.filter(
+                        inventory_id=request.auth.user.id,
+                        unit_id=request.data['unit'],
+                        ingredient_id=request.data['ingredient']
+                    ).first()
+                    if existing_ingredient:
+                        # If it exists, update the quantity
+                        existing_ingredient.quantity = request.data['quantity']
+                        existing_ingredient.save()
+                        # Serialize data into json format to be processed
+                        serializer = MyInventoryIngredientSerializer(existing_ingredient, context={'request': request})
+                        return Response(serializer.data, status=status.HTTP_200_OK)
+                    else:
+                
 
-                    # serialize again to serialize the new updated object 
-                    serializer = MyInventoryIngredientSerializer(witchInventoryIngredient, context={'request': request})
-                    return Response(None, status=status.HTTP_204_NO_CONTENT)
+                
+                        witchInventoryIngredient.ingredient = serializer.validated_data['ingredient']
+                        witchInventoryIngredient.quantity = serializer.validated_data['quantity']
+                        witchInventoryIngredient.unit = serializer.validated_data['unit']
+                        # Update the added_on field to the current date and time
+                        witchInventoryIngredient.added_on = datetime.now()
+
+                        
+                        # save new updated object
+                        witchInventoryIngredient.save()
+
+                        # serialize again to serialize the new updated object 
+                        serializer = MyInventoryIngredientSerializer(witchInventoryIngredient, context={'request': request})
+                        return Response(None, status=status.HTTP_204_NO_CONTENT)
                 
                 return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
             else: 
