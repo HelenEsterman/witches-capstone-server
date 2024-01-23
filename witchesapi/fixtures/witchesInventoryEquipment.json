@@ -1,0 +1,62 @@
+[
+  {
+    "model": "witchesapi.witchInventoryEquipment",
+    "pk": 1,
+    "fields": {
+      "inventory": 1,
+      "equipment": 6,
+      "quantity": 3,
+      "added_on": "2023-12-12"
+    }
+  },
+  {
+    "model": "witchesapi.witchInventoryEquipment",
+    "pk": 2,
+    "fields": {
+      "inventory": 1,
+      "equipment": 1,
+      "quantity": 3,
+      "added_on": "2023-12-12"
+    }
+  },
+  {
+    "model": "witchesapi.witchInventoryEquipment",
+    "pk": 3,
+    "fields": {
+      "inventory": 1,
+      "equipment": 5,
+      "quantity": 3,
+      "added_on": "2023-12-12"
+    }
+  },
+  {
+    "model": "witchesapi.witchInventoryEquipment",
+    "pk": 4,
+    "fields": {
+      "inventory": 1,
+      "equipment": 4,
+      "quantity": 3,
+      "added_on": "2023-12-12"
+    }
+  },
+  {
+    "model": "witchesapi.witchInventoryEquipment",
+    "pk": 5,
+    "fields": {
+      "inventory": 1,
+      "equipment": 3,
+      "quantity": 3,
+      "added_on": "2023-12-12"
+    }
+  },
+  {
+    "model": "witchesapi.witchInventoryEquipment",
+    "pk": 6,
+    "fields": {
+      "inventory": 1,
+      "equipment": 2,
+      "quantity": 3,
+      "added_on": "2023-12-12"
+    }
+  }
+]

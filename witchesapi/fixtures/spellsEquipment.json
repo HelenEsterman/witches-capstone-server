@@ -4,7 +4,8 @@
     "pk": 1,
     "fields": {
       "spell": 1,
-      "equipment": 1
+      "equipment": 1,
+      "quantity": 1
     }
   },
   {
@@ -12,7 +13,8 @@
     "pk": 2,
     "fields": {
       "spell": 2,
-      "equipment": 1
+      "equipment": 1,
+      "quantity": 1
     }
   },
   {
@@ -20,7 +22,8 @@
     "pk": 3,
     "fields": {
       "spell": 3,
-      "equipment": 2
+      "equipment": 2,
+      "quantity": 1
     }
   },
   {
@@ -28,7 +31,8 @@
     "pk": 4,
     "fields": {
       "spell": 3,
-      "equipment": 3
+      "equipment": 3,
+      "quantity": 1
     }
   },
   {
@@ -36,7 +40,8 @@
     "pk": 5,
     "fields": {
       "spell": 3,
-      "equipment": 4
+      "equipment": 4,
+      "quantity": 1
     }
   },
   {
@@ -44,7 +49,8 @@
     "pk": 6,
     "fields": {
       "spell": 4,
-      "equipment": 1
+      "equipment": 1,
+      "quantity": 1
     }
   },
   {
@@ -52,7 +58,8 @@
     "pk": 7,
     "fields": {
       "spell": 4,
-      "equipment": 5
+      "equipment": 5,
+      "quantity": 1
     }
   },
   {
@@ -60,7 +67,8 @@
     "pk": 8,
     "fields": {
       "spell": 4,
-      "equipment": 6
+      "equipment": 6,
+      "quantity": 1
     }
   },
   {
@@ -68,7 +76,8 @@
     "pk": 9,
     "fields": {
       "spell": 4,
-      "equipment": 4
+      "equipment": 4,
+      "quantity": 1
     }
   },
   {
@@ -76,7 +85,8 @@
     "pk": 10,
     "fields": {
       "spell": 5,
-      "equipment": 7
+      "equipment": 7,
+      "quantity": 1
     }
   },
   {
@@ -84,7 +94,8 @@
     "pk": 11,
     "fields": {
       "spell": 5,
-      "equipment": 8
+      "equipment": 8,
+      "quantity": 1
     }
   },
   {
@@ -92,7 +103,8 @@
     "pk": 12,
     "fields": {
       "spell": 6,
-      "equipment": 9
+      "equipment": 9,
+      "quantity": 1
     }
   },
   {
@@ -100,7 +112,8 @@
     "pk": 13,
     "fields": {
       "spell": 6,
-      "equipment": 1
+      "equipment": 1,
+      "quantity": 1
     }
   },
   {
@@ -108,7 +121,8 @@
     "pk": 14,
     "fields": {
       "spell": 8,
-      "equipment": 1
+      "equipment": 1,
+      "quantity": 1
     }
   },
   {
@@ -116,7 +130,8 @@
     "pk": 15,
     "fields": {
       "spell": 8,
-      "equipment": 10
+      "equipment": 10,
+      "quantity": 1
     }
   },
   {
@@ -124,7 +139,8 @@
     "pk": 16,
     "fields": {
       "spell": 9,
-      "equipment": 11
+      "equipment": 11,
+      "quantity": 1
     }
   },
   {
@@ -132,7 +148,8 @@
     "pk": 17,
     "fields": {
       "spell": 10,
-      "equipment": 1
+      "equipment": 1,
+      "quantity": 1
     }
   },
   {
@@ -140,7 +157,8 @@
     "pk": 18,
     "fields": {
       "spell": 10,
-      "equipment": 12
+      "equipment": 12,
+      "quantity": 1
     }
   },
   {
@@ -148,7 +166,8 @@
     "pk": 19,
     "fields": {
       "spell": 11,
-      "equipment": 13
+      "equipment": 13,
+      "quantity": 1
     }
   },
   {
@@ -156,7 +175,8 @@
     "pk": 20,
     "fields": {
       "spell": 11,
-      "equipment": 1
+      "equipment": 1,
+      "quantity": 1
     }
   },
   {
@@ -164,7 +184,8 @@
     "pk": 21,
     "fields": {
       "spell": 11,
-      "equipment": 14
+      "equipment": 14,
+      "quantity": 1
     }
   }
 ]

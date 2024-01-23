@@ -3,7 +3,7 @@
     "model": "witchesapi.equipment",
     "pk": 1,
     "fields": {
-      "label": "matches"
+      "label": "box of matches"
     }
   },
   {
