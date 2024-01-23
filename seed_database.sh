@@ -18,6 +18,7 @@ python3 manage.py loaddata equipment
 python3 manage.py loaddata spells
 python3 manage.py loaddata spellsEquipment
 python3 manage.py loaddata spellsIngredients
+python3 manage.py loaddata witchesInventoryEquipment
 
 
 

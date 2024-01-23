@@ -9,3 +9,4 @@ from .spellIngredient import SpellIngredient
 from .witchInventory import WitchInventory
 from .witchInventoryIngredient import WitchInventoryIngredient
 from .unit import Unit
+from .witchInventoryEquipment import WitchInventoryEquipment
