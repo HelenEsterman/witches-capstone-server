@@ -5,7 +5,39 @@ from witchesapi.models import WitchInventoryIngredient, WitchInventory, Witch, I
 from .avatars import AvatarSerializer
 from .ingredients import IngredientSerializer
 from datetime import datetime
-# 
+
+# TODO:also need to finish what I was working on with the 'my' equipment inventory feature
+
+#TODO possible way to solve ingredient measurement and quantity comparison issue!--also refer to sydney's messages for guidance
+# utils.py
+
+# Conversion rates from various units to cups
+# conversion_rates = {
+# 'cup': 1, # 1 cup is the base unit
+# 'oz': 0.125, # Assuming 1 cup is 8 oz, so 1 oz is 1/8th of a cup
+# 'tbsp': 0.0625, # Assuming 1 cup is 16 tablespoons, so 1 tbsp is 1/16th of a cup
+# # Add more conversions as needed
+# }
+
+# def convert_to_cups(quantity, unit):
+# if unit in conversion_rates:
+# return quantity * conversion_rates[unit]
+# else:
+# # Handle unsupported units
+# raise ValueError(f"Unsupported unit: {unit}")
+
+
+# class IngredientSerializer(serializers.ModelSerializer):
+# quantity_in_cups = serializers.SerializerMethodField()
+
+# class Meta:
+# model = Ingredient
+# fields = ['id', 'name', 'quantity', 'unit', 'quantity_in_cups']
+
+# def get_quantity_in_cups(self, obj):
+# # Convert the ingredient quantity to cups
+# return convert_to_cups(obj.quantity, obj.unit)
+# TODO
 
 # define serializer for 'witch' key on 'inventory' key on obj
 class WitchSerializer(serializers.ModelSerializer):

@@ -5,3 +5,4 @@ from .myInventoryIngredients import MyInventoryIngredientViewSet, UnitSerializer
 from .spells import SpellViewSet
 from .units import UnitViewSet
 from .types import IngredientTypeViewSet
+from .myInventoryEquipment import MyInventoryEquipmentViewSet
