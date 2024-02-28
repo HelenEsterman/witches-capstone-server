@@ -28,3 +28,5 @@ class MyInventoryEquipmentViewSet(viewsets.ViewSet):
         # error handle if equipment not found
         except WitchInventoryEquipment.DoesNotExist:
             return Response(status=status.HTTP_404_NOT_FOUND)
+        def create(self,request):
+            pass
