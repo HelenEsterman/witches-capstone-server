@@ -9,8 +9,10 @@ class IngredientTypeSerializer(serializers.ModelSerializer):
         model = IngredientType
         fields = ['id', 'label']
 
+# viewsets class inherited through built in django class
 class IngredientTypeViewSet(viewsets.ViewSet):
 
+# define method, parameters are view set instance ('self') and HTTP request ('request')
     def list(self, request):
         types = IngredientType.objects.all()
         serializer = IngredientTypeSerializer(types, many=True, context={'request': request})
