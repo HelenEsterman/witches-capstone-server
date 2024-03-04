@@ -16,7 +16,9 @@ class UserSerializer(serializers.ModelSerializer):
         extra_kwargs = {'password': {'write_only': True}}
 
 class WitchUserViewSet(viewsets.ViewSet):
+    # all user objects in database are set to variable 'queryset'
     queryset = User.objects.all()
+    # this means no 'auth_token' needed to make HTTP requests to this viewset instance
     permission_classes = [permissions.AllowAny]
 
     @action(detail=False, methods=['post'], url_path='register')
