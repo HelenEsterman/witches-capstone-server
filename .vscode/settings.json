@@ -10,5 +10,7 @@
     "--disable=trailing-newlines",
     "--disable=trailing-whitespaces"
   ],
-  "python.REPL.enableREPLSmartSend": false
+  "python.REPL.enableREPLSmartSend": false,
+  "editor.stickyScroll.scrollWithEditor": false,
+  "workbench.tree.enableStickyScroll": false
 }

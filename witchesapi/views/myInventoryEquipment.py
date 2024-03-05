@@ -28,5 +28,21 @@ class MyInventoryEquipmentViewSet(viewsets.ViewSet):
         # error handle if equipment not found
         except WitchInventoryEquipment.DoesNotExist:
             return Response(status=status.HTTP_404_NOT_FOUND)
-        def create(self,request):
+    def create(self,request):
+        # get values of data from HTTP request body
+        equipment_id = request.data['equipment']
+        quantity = request.data['quantity']
+        inventory_id = request.auth.user.id
+
+        # check if there is already a piece of equipment in the inventory with same user id and equipment id (ensures no duplicate)
+        existing_equipment = WitchInventoryEquipment.objects.filter(inventory_id = inventory_id, equipment_id = equipment_id).first()
+        # ^ will return the existing equipment obj or 'None'
+        if existing_equipment:
+            # if it duplicate exists, just update quantity
+            existing_equipment.quantity = quantity
+            existing_equipment.save()
+            # serialize into json format
+            serializer = MyInventoryEquipmentSerializer(existing_equipment, context={'request': request})
+            return Response(serializer.data, status = status.HTTP_200_OK) 
+        else:
             pass
