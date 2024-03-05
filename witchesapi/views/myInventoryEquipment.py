@@ -1,7 +1,7 @@
 from rest_framework import viewsets, status
 from rest_framework.response import Response
 from rest_framework import serializers
-from witchesapi.models import WitchInventoryEquipment
+from witchesapi.models import WitchInventoryEquipment, Equipment, WitchInventory
 
 
 # define inventory equipment serializer
@@ -45,4 +45,12 @@ class MyInventoryEquipmentViewSet(viewsets.ViewSet):
             serializer = MyInventoryEquipmentSerializer(existing_equipment, context={'request': request})
             return Response(serializer.data, status = status.HTTP_200_OK) 
         else:
-            pass
+            # instantiate equipmentInventory obj to create a PK for new obj
+            witchInventoryEquipment = WitchInventoryEquipment.objects.create(
+                quantity = quantity,
+                equipment = Equipment.objects.get(pk=request.data['equipment']),
+                inventory = WitchInventory.objects.get(pk=request.auth.user.id)
+            )
+            # serialize data to json format
+            serializer = MyInventoryEquipmentSerializer(witchInventoryEquipment, context={'request': request})
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
