@@ -54,3 +54,9 @@ class MyInventoryEquipmentViewSet(viewsets.ViewSet):
             # serialize data to json format
             serializer = MyInventoryEquipmentSerializer(witchInventoryEquipment, context={'request': request})
             return Response(serializer.data, status=status.HTTP_201_CREATED)
+        
+    def update(self, request, pk=None):
+        # get inventory equipment obj from database using PK from url
+        witchInventoryEquipment = WitchInventoryEquipment.object.get(pk=pk)
+
+        # make sure user trying to edit IS owner of equipment
