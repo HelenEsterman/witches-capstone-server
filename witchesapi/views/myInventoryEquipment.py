@@ -56,7 +56,14 @@ class MyInventoryEquipmentViewSet(viewsets.ViewSet):
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         
     def update(self, request, pk=None):
+        # todo: remove this =>
+        pass
         # get inventory equipment obj from database using PK from url
         witchInventoryEquipment = WitchInventoryEquipment.object.get(pk=pk)
 
         # make sure user trying to edit IS owner of equipment
+        if witchInventoryEquipment.inventory_id == request.auth.user.id
+
+        # serialize the request data into json format and assign to variable
+        serializers = MyInventoryEquipmentSerializer(data=request.data)
+        
