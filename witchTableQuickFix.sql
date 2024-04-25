@@ -6,3 +6,9 @@ VALUES ("item(s)");
 
 INSERT INTO witchesapi_spellingredient (measurement, ingredient_id, spell_id)
 VALUES ("one", 3, 2);
+
+
+-- SELECT 
+-- i.label
+-- from witchesapi_ingredient i
+-- where i.healing_property LIKE "protection";
